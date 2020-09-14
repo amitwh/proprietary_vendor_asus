@@ -34,8 +34,8 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "both",
-	check_elf_files: false,
 	prefer: true,
+	check_elf_files: false,
 }
 
 android_app_import {
@@ -52,17 +52,6 @@ android_app_import {
 	name: "WfdService",
 	owner: "asus",
 	apk: "proprietary/priv-app/WfdService/WfdService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
-	name: "com.qualcomm.location",
-	owner: "asus",
-	apk: "proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
