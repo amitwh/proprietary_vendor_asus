@@ -127,7 +127,7 @@ android_app_import {
 	apk: "proprietary/priv-app/WfdService/WfdService.apk",
 	certificate: "platform",
 	dex_preopt: {
-		enabled: false,
+		enabled: true,
 	},
 	privileged: true,
 }
@@ -138,7 +138,7 @@ android_app_import {
 	apk: "proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk",
 	certificate: "platform",
 	dex_preopt: {
-		enabled: false,
+		enabled: true,
 	},
 	privileged: true,
 }
@@ -149,7 +149,7 @@ android_app_import {
 	apk: "proprietary/vendor/app/CneApp/CneApp.apk",
 	certificate: "platform",
 	dex_preopt: {
-		enabled: false,
+		enabled: true,
 	},
 	soc_specific: true,
 }
@@ -160,7 +160,7 @@ android_app_import {
 	apk: "proprietary/vendor/app/IWlanService/IWlanService.apk",
 	certificate: "platform",
 	dex_preopt: {
-		enabled: false,
+		enabled: true,
 	},
 	soc_specific: true,
 }
@@ -171,7 +171,7 @@ android_app_import {
 	apk: "proprietary/vendor/app/QFingerprintService/QFingerprintService.apk",
 	certificate: "platform",
 	dex_preopt: {
-		enabled: false,
+		enabled: true,
 	},
 	soc_specific: true,
 }
@@ -182,7 +182,7 @@ android_app_import {
 	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
 	certificate: "platform",
 	dex_preopt: {
-		enabled: false,
+		enabled: true,
 	},
 	soc_specific: true,
 }
@@ -193,7 +193,7 @@ android_app_import {
 	apk: "proprietary/product/app/PowerOffAlarm/PowerOffAlarm.apk",
 	certificate: "platform",
 	dex_preopt: {
-		enabled: false,
+		enabled: true,
 	},
 	product_specific: true,
 }
@@ -204,7 +204,7 @@ android_app_import {
 	apk: "proprietary/product/app/QtiTelephonyService/QtiTelephonyService.apk",
 	certificate: "platform",
 	dex_preopt: {
-		enabled: false,
+		enabled: true,
 	},
 	product_specific: true,
 }
@@ -215,7 +215,7 @@ android_app_import {
 	apk: "proprietary/product/app/datastatusnotification/datastatusnotification.apk",
 	certificate: "platform",
 	dex_preopt: {
-		enabled: false,
+		enabled: true,
 	},
 	product_specific: true,
 }
@@ -226,7 +226,7 @@ android_app_import {
 	apk: "proprietary/product/app/imssettings/imssettings.apk",
 	certificate: "platform",
 	dex_preopt: {
-		enabled: false,
+		enabled: true,
 	},
 	product_specific: true,
 }
@@ -237,7 +237,7 @@ android_app_import {
 	apk: "proprietary/product/app/uceShimService/uceShimService.apk",
 	certificate: "platform",
 	dex_preopt: {
-		enabled: false,
+		enabled: true,
 	},
 	product_specific: true,
 }
@@ -248,7 +248,7 @@ android_app_import {
 	apk: "proprietary/product/priv-app/dpmserviceapp/dpmserviceapp.apk",
 	certificate: "platform",
 	dex_preopt: {
-		enabled: false,
+		enabled: true,
 	},
 	privileged: true,
 	product_specific: true,
@@ -260,7 +260,7 @@ android_app_import {
 	apk: "proprietary/product/priv-app/ims/ims.apk",
 	certificate: "platform",
 	dex_preopt: {
-		enabled: false,
+		enabled: true,
 	},
 	privileged: true,
 	product_specific: true,
@@ -272,7 +272,7 @@ android_app_import {
 	apk: "proprietary/product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
 	certificate: "platform",
 	dex_preopt: {
-		enabled: false,
+		enabled: true,
 	},
 	privileged: true,
 	product_specific: true,
