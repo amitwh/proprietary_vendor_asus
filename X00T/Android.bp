@@ -283,25 +283,23 @@ android_app_import {
 android_app_import {
 	name: "com.qualcomm.location",
 	owner: "asus",
-	apk: "proprietary/system_ext/priv-app/com.qualcomm.location/com.qualcomm.location.apk",
+	apk: "proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: true,
 	},
 	privileged: true,
-	system_ext_specific: true,
 }
 
 android_app_import {
 	name: "WfdService",
 	owner: "asus",
-	apk: "proprietary/system_ext/priv-app/WfdService/WfdService.apk",
+	apk: "proprietary/priv-app/WfdService/WfdService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: true,
 	},
 	privileged: true,
-	system_ext_specific: true,
 }
 
 dex_import {
