@@ -37,7 +37,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/lib/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfm-hci.so \
     vendor/asus/X00T/proprietary/lib/libavservices_minijail.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libavservices_minijail.so \
     vendor/asus/X00T/proprietary/lib/android.hardware.ir@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.ir@1.0.so \
-    vendor/asus/X00T/proprietary/lib/hw/vendor.qti.hardware.qccsyshal@1.0-impl.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/vendor.qti.hardware.qccsyshal@1.0-impl.so \
     vendor/asus/X00T/proprietary/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
     vendor/asus/X00T/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
     vendor/asus/X00T/proprietary/lib64/libwfds.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfds.so \
@@ -56,7 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/lib64/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.display.color@1.2.so \
     vendor/asus/X00T/proprietary/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.display.postproc@1.0.so \
     vendor/asus/X00T/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
-    vendor/asus/X00T/proprietary/lib64/hw/vendor.qti.hardware.qccsyshal@1.0-impl.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/vendor.qti.hardware.qccsyshal@1.0-impl.so \
     vendor/asus/X00T/proprietary/product/etc/permissions/icesoundsetmodeservice.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/icesoundsetmodeservice.xml \
     vendor/asus/X00T/proprietary/product/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/qcrilhook.xml \
     vendor/asus/X00T/proprietary/product/etc/permissions/telephony_product_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephony_product_privapp-permissions-qti.xml \
@@ -105,10 +103,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/system_ext/framework/com.android.hotwordenrollment.common.util.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/com.android.hotwordenrollment.common.util.jar \
     vendor/asus/X00T/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/asus/X00T/proprietary/system_ext/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/wfdservice \
-    vendor/asus/X00T/proprietary/system_ext/bin/qccsyshalservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/qccsyshalservice \
     vendor/asus/X00T/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
     vendor/asus/X00T/proprietary/system_ext/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/wfdservice.rc \
-    vendor/asus/X00T/proprietary/system_ext/etc/init/vendor.qti.hardware.qccsyshal@1.0-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/vendor.qti.hardware.qccsyshal@1.0-service.rc \
     vendor/asus/X00T/proprietary/system_ext/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml \
     vendor/asus/X00T/proprietary/system_ext/etc/seccomp_policy/wfdservice.policy:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/seccomp_policy/wfdservice.policy \
     vendor/asus/X00T/proprietary/system_ext/etc/wfdconfigsink.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/wfdconfigsink.xml \
@@ -125,8 +121,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/system_ext/lib/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmmparser_lite.so \
     vendor/asus/X00T/proprietary/system_ext/lib/libmmrtpdecoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmmrtpdecoder.so \
     vendor/asus/X00T/proprietary/system_ext/lib/libmmrtpencoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmmrtpencoder.so \
-    vendor/asus/X00T/proprietary/system_ext/lib/libqcc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libqcc.so \
-    vendor/asus/X00T/proprietary/system_ext/lib/libqcc_file_agent_sys.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libqcc_file_agent_sys.so \
     vendor/asus/X00T/proprietary/system_ext/lib/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/asus/X00T/proprietary/system_ext/lib/libdpmctmgr.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libdpmctmgr.so \
     vendor/asus/X00T/proprietary/system_ext/lib/libdpmfdmgr.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libdpmfdmgr.so \
@@ -162,8 +156,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/system_ext/lib/vendor.qti.data.factory@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.data.factory@2.1.so \
     vendor/asus/X00T/proprietary/system_ext/lib/vendor.qti.data.slm@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.data.slm@1.0.so \
     vendor/asus/X00T/proprietary/system_ext/lib/vendor.qti.hardware.qteeconnector@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.qteeconnector@1.0.so \
-    vendor/asus/X00T/proprietary/system_ext/lib/vendor.qti.hardware.qccsyshal@1.0-halimpl.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.qccsyshal@1.0-halimpl.so \
-    vendor/asus/X00T/proprietary/system_ext/lib/vendor.qti.hardware.qccsyshal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.qccsyshal@1.0.so \
     vendor/asus/X00T/proprietary/system_ext/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
     vendor/asus/X00T/proprietary/system_ext/lib/vendor.qti.hardware.wifidisplaysession@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.wifidisplaysession@1.0.so \
     vendor/asus/X00T/proprietary/system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.dpm.api@1.0.so \
@@ -176,8 +168,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/system_ext/lib64/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmparser_lite.so \
     vendor/asus/X00T/proprietary/system_ext/lib64/libmmrtpdecoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmrtpdecoder.so \
     vendor/asus/X00T/proprietary/system_ext/lib64/libmmrtpencoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmrtpencoder.so \
-    vendor/asus/X00T/proprietary/system_ext/lib64/libqcc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libqcc.so \
-    vendor/asus/X00T/proprietary/system_ext/lib64/libqcc_file_agent_sys.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libqcc_file_agent_sys.so \
     vendor/asus/X00T/proprietary/system_ext/lib64/libwfdclient.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libwfdclient.so \
     vendor/asus/X00T/proprietary/system_ext/lib64/libwfdcommonutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libwfdcommonutils.so \
     vendor/asus/X00T/proprietary/system_ext/lib64/libwfdconfigutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libwfdconfigutils.so \
@@ -204,8 +194,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/system_ext/lib64/vendor.qti.data.factory@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.data.factory@2.1.so \
     vendor/asus/X00T/proprietary/system_ext/lib64/vendor.qti.data.slm@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.data.slm@1.0.so \
     vendor/asus/X00T/proprietary/system_ext/lib64/vendor.qti.hardware.qteeconnector@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.qteeconnector@1.0.so \
-    vendor/asus/X00T/proprietary/system_ext/lib64/vendor.qti.hardware.qccsyshal@1.0-halimpl.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.qccsyshal@1.0-halimpl.so \
-    vendor/asus/X00T/proprietary/system_ext/lib64/vendor.qti.hardware.qccsyshal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.qccsyshal@1.0.so \
     vendor/asus/X00T/proprietary/system_ext/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so \
     vendor/asus/X00T/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/asus/X00T/proprietary/vendor/bin/adpl:$(TARGET_COPY_OUT_VENDOR)/bin/adpl \
@@ -435,8 +423,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/vendor/lib/libDxHdcp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDxHdcp.so \
     vendor/asus/X00T/proprietary/vendor/lib/libavservices_minijail.so:$(TARGET_COPY_OUT_VENDOR)/lib/libavservices_minijail.so \
     vendor/asus/X00T/proprietary/vendor/lib/libqdMetaData.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdMetaData.so \
-    vendor/asus/X00T/proprietary/vendor/lib/libqcc_file_agent.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcc_file_agent.so \
-    vendor/asus/X00T/proprietary/vendor/lib/vendor.qti.hardware.qccsyshal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qccsyshal@1.0.so \
     vendor/asus/X00T/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/asus/X00T/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so \
     vendor/asus/X00T/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
@@ -1119,7 +1105,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
     vendor/asus/X00T/proprietary/vendor/lib/libperfconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfconfig.so \
     vendor/asus/X00T/proprietary/vendor/lib/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfgluelayer.so \
-    vendor/asus/X00T/proprietary/vendor/lib/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcci_legacy.so \
     vendor/asus/X00T/proprietary/vendor/lib/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdi.so \
     vendor/asus/X00T/proprietary/vendor/lib/libqdp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdp.so \
     vendor/asus/X00T/proprietary/vendor/lib/libqisl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqisl.so \
@@ -1257,8 +1242,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/vendor/lib64/libavservices_minijail.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libavservices_minijail.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libcdfw_remote_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdfw_remote_api.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libqdMetaData.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdMetaData.so \
-    vendor/asus/X00T/proprietary/vendor/lib64/libqcc_file_agent.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcc_file_agent.so \
-    vendor/asus/X00T/proprietary/vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qccsyshal@1.0.so \
     vendor/asus/X00T/proprietary/vendor/lib64/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/asus/X00T/proprietary/vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/asus/X00T/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@2.0.so \
@@ -1393,7 +1376,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/vendor/lib64/libperfconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfconfig.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfgluelayer.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperipheral_client.so \
-    vendor/asus/X00T/proprietary/vendor/lib64/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcci_legacy.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcmaputils.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libqcrilFramework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcrilFramework.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdi.so \
