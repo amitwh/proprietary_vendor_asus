@@ -303,17 +303,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "aptxui",
-	owner: "asus",
-	apk: "proprietary/priv-app/aptxui/aptxui.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: true,
-	},
-	privileged: true,
-}
-
-android_app_import {
 	name: "com.qualcomm.location",
 	owner: "asus",
 	apk: "proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk",
